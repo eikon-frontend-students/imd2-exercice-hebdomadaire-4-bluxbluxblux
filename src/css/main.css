@@ -37,7 +37,7 @@ body {
   align-self: stretch;
 }
 
-.Suisse {
+.suisse {
   width: 100px;
   color: #000;
   text-align: right;
@@ -57,7 +57,6 @@ body {
 .mobile {
   background: #ffcc2f;
   display: flex;
-  width: 195px;
   height: 30px;
   justify-content: center;
   align-items: center;
@@ -67,7 +66,6 @@ body {
   border-radius: 0px 10px 10px 0px;
   background: #37d3d2;
   display: flex;
-  width: 105px;
   height: 30px;
   justify-content: center;
   align-items: center;
@@ -83,6 +81,14 @@ body {
   line-height: normal;
 }
 
+.switzerland .mobile {
+  width: 195px;
+}
+
+.switzerland .desktop {
+  width: 105px;
+}
+
 .usa {
   display: flex;
   align-items: center;
@@ -91,10 +97,14 @@ body {
 }
 
 .États-Unis {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  align-self: stretch;
+  width: 100px;
+  color: #000;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .bar {
@@ -122,17 +132,6 @@ body {
   align-items: center;
 }
 
-.suisse {
-  width: 100px;
-  color: #000;
-  text-align: right;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
 .mobile,
 .desktop {
   color: #fff;
@@ -141,6 +140,14 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.usa .mobile {
+  width: 153px;
+}
+
+.usa .desktop {
+  width: 147px;
 }
 
 .Eu {
@@ -162,7 +169,6 @@ body {
 }
 
 .bar {
-  border-radius: 0px 10px 10px 0px;
   display: flex;
   align-items: center;
   gap: 2px;
@@ -171,35 +177,82 @@ body {
 .mobile {
   background: #ffcc2f;
   display: flex;
-  width: 153px;
   height: 30px;
   justify-content: center;
   align-items: center;
 }
 
 .desktop {
+  border-radius: 0px 10px 10px 0px;
   background: #37d3d2;
   display: flex;
-  width: 147px;
   height: 30px;
   justify-content: center;
   align-items: center;
-}
-
-.suisse {
-  width: 100px;
-  color: #000;
-  text-align: right;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .mobile,
 .desktop {
   color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Eu .mobile {
+  width: 123px;
+}
+
+.Eu .desktop {
+  width: 177px;
+}
+
+.legend {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.mobile-leg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mobile-leg .carre {
+  background: #ffcc2f;
+  width: 16px;
+  height: 16px;
+}
+
+.mob {
+  color: #000;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.desktop-leg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.desktop-leg .carre {
+  background: #37d3d2;
+  width: 16px;
+  height: 16px;
+}
+
+.desk {
+  color: #000;
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
